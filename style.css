@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: rgb(156, 149, 149);
+    /* width: 260px; */
+    height: 100vh;
+    font-family: 'Balo Bhai', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    /* padding: 33px 0; */
+}
+
+.sidebar nav {
+    /* font-weight: 600; */
+    padding: 45px;
+}
+
+.main {
+    width: 90vw;
+    /* background-color: rgb(6, 183, 242); */
+    /* will uncomment soon */
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: yellow; */
+    height: 59vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+
+
+}
+
+.hello {
+    font-size: 80px;
+    font-weight: 510;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 75px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.Details {
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.devPic img {
+    /* width: 381px; */
+    height: 58vh;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    height: 51px;
+    padding: 10px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 7px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    color: goldenrod;
+}
+
+/* the below syntax is copied from google and the px used is when the collion of text occurs */
+/* @media (max-width:1750px) {
+    * {
+        background-color: rgb(249, 200, 200);
+    }
+
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */
+
+.hamburger img {
+    cursor: pointer;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 155px;
+}

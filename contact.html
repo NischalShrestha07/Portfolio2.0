@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio2.0(Better One Than Before)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        .formLabel {
+            font-weight: bold;
+            margin-left: -10px;
+        }
+
+        .formText {
+            margin-top: 10px;
+        }
+
+        .contactForm {
+            padding-top: 100px;
+            padding: 0 34px;
+        }
+
+        .contactForm h1 {
+            font-family: 'Fira Sans', sans-serif;
+            text-align: center;
+        }
+
+        .email {
+            padding: 53px 76px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        .phoneNo {
+            padding: 0px 76px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        .checkOut {
+            padding: 10px 76px;
+
+        }
+
+        .Submit {
+            margin: 15px 97px;
+            border-radius: 10px;
+            padding: 8px;
+            background-color: greenyellow;
+            color: #56124e;
+            font-weight: bold;
+
+
+        }
+
+        .formControl {
+            width: 27vw;
+            border-radius: 10px;
+            font-size: 15px;
+            margin: 0 8px;
+            padding: 7px;
+        }
+
+        .userName {
+            font-size: 18px;
+            padding: 0 62px;
+        }
+
+        .userName1 {
+            font-size: 20px;
+            margin-left: -63px;
+            border-radius: 10px;
+            padding: 7px;
+            width: 30vw;
+            height: 38px;
+        }
+
+        .Enquiry1 {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <!-- Rahu -->
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/cv.txt" target="_blank">CV</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contactForm">
+                <h1>Contact me for Work/General Enquiry</h1>
+                <form>
+                    <div class="name">
+                        <label class="userName"> Name</label>
+                        <input type="text" class="userName1" id="userEmail">
+                    </div>
+                    <div class="email">
+                        <label for="userEmail" class="formLabel">Email address:</label>
+                        <input type="email" class="formControl" id="userEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="formText">We'll never share your email and number with anyone
+                            else.
+                        </div>
+                    </div>
+                    <div class="phoneNo">
+                        <label for="userPhone" class="formLabel">Phone Number:</label>
+                        <input type="phone" class="formControl" id="userPhone">
+                    </div>
+                    <div class="name">
+                        <label class="userName"> Enquiry:</label>
+                        <input type="text" class="userName1" id="userEmail">
+                    </div>
+
+                    <div class="checkOut">
+                        <input type="checkbox" class="form-check-input" id="isUser">
+                        <label class="form-check-label" for="isUser">I want you to work on a project with
+                            me.</label>
+                    </div>
+                    <button type="submit" class="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
